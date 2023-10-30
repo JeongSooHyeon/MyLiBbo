@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShockWave(WorldSpace)
+  m_Shader: {fileID: 4800000, guid: 16af7a4d8df304d129788f738dee6afc, type: 3}
+  m_ShaderKeywords: _EMISSION _USEDEPTH_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _Amplitude: 0.59130955
+    - _Radius: 0.18480003
+    - _ScreenRatio: 10.51
+    - _UseDepth: 1
+    - _WaveSize: 0.1807
+    m_Colors: []
+  m_BuildTextureStacks: []

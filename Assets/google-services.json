@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "994864508840",
+    "project_id": "bbosiraegibricksbreaker-370285",
+    "storage_bucket": "bbosiraegibricksbreaker-370285.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994864508840:android:303e6c494ae2fdf8d5779d",
+        "android_client_info": {
+          "package_name": "com.Deliciousgames.BbosiraegiBricksBreaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994864508840-dmniaqn720l48ihhtdaagjk7km3t2r43.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Deliciousgames.BbosiraegiBricksBreaker",
+            "certificate_hash": "051486d1fcb77cd07d853ea0a7be0616e0e4c6de"
+          }
+        },
+        {
+          "client_id": "994864508840-bu78ff0giljbahatkfddvrq21rusbeh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4AU5pi8CMCbR5UXFfKf8XAih2ipQp3cc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994864508840-bu78ff0giljbahatkfddvrq21rusbeh2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "994864508840-055ml180lhtan2m30ckq7rtpq2139n59.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Deliciousgames.BbosiraegiBricksBreaker"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4481686654489037~2153787791"
+    }
+  ],
+  "configuration_version": "1"
+}

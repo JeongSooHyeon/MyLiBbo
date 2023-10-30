@@ -1,0 +1,847 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91ed93d996266a248812b0ea3b0f4a2e, type: 3}
+  m_Name: Stage
+  m_EditorClassIdentifier: 
+  MapDataList:
+  - curCol: 9
+    curRow: 9
+    StageIdx: 1
+    MyGM: 0
+    BallCount: 0
+    BossHPCount: 0
+    BossType: 0
+    BossSpeed: 0
+    StartArr: 00000000000000002c010000
+    myBlockDatas:
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 20
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 20
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 20
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 20
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 20
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 20
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 20
+      uType: 1
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    AddBlockDatas: []
+  - curCol: 9
+    curRow: 9
+    StageIdx: 2
+    MyGM: 0
+    BallCount: 0
+    BossHPCount: 0
+    BossType: 0
+    BossSpeed: 0
+    StartArr: 00000000000000002c010000
+    myBlockDatas:
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 1
+      colorType: 1
+      health: 5
+      uType: 1
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 1
+      colorType: 1
+      health: 5
+      uType: 1
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 1
+      colorType: 1
+      health: 5
+      uType: 1
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 1
+      colorType: 1
+      health: 5
+      uType: 1
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 1
+      colorType: 1
+      health: 5
+      uType: 1
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 1
+      colorType: 1
+      health: 5
+      uType: 1
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 1
+      colorType: 0
+      health: 10
+      uType: 1
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    - mIdx: 0
+      type_: 0
+      colorType: -1
+      health: 0
+      uType: 0
+    AddBlockDatas: []
