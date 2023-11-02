@@ -18,6 +18,7 @@ public class BottomItemBtn : MonoBehaviour
             itemCnt = DataManager.instance.GetInstanceItemList(itemState);
             cntLabel[0].text = string.Format("x{0}", itemCnt);
             cntLabel[1].text = string.Format("x{0}", itemCnt);
+           
         }
         else
         {
@@ -117,6 +118,9 @@ public class BottomItemBtn : MonoBehaviour
                     break;
                 case InstanceItem.AdBall:
                     UIManager.instance.ClickPlusBallAd();
+                    break;
+                case InstanceItem.PowerUp:
+                    BallManager.instance.UsePowerUp(4);
                     break;
             }
 
