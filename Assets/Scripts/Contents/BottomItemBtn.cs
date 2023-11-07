@@ -18,7 +18,7 @@ public class BottomItemBtn : MonoBehaviour
             itemCnt = DataManager.instance.GetInstanceItemList(itemState);
             cntLabel[0].text = string.Format("x{0}", itemCnt);
             cntLabel[1].text = string.Format("x{0}", itemCnt);
-           
+
         }
         else
         {
@@ -36,7 +36,7 @@ public class BottomItemBtn : MonoBehaviour
     {
         if (itemState == InstanceItem.DoubleBall && isDouble)
         {
-            if(DataManager.instance.GetCoin() < 200)
+            if (DataManager.instance.GetCoin() < 200)
             {
                 showObj[3].SetActive(false);
                 showObj[5].SetActive(true);
@@ -121,6 +121,9 @@ public class BottomItemBtn : MonoBehaviour
                     break;
                 case InstanceItem.PowerUp:
                     BallManager.instance.UsePowerUp(4);
+                    break;
+                case InstanceItem.LineUp:
+                    BrickManager.instance.BottomeLineUpBtn();
                     break;
             }
 

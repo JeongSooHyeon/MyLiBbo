@@ -92,6 +92,7 @@ public enum InstanceItem
     DoubleBall,
     AllBlockDamage,
     PowerUp,
+    LineUp,
     Undo,
     AdBall,
     PlusBall,
