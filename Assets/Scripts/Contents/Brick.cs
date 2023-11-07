@@ -162,6 +162,18 @@ public class Brick : MonoBehaviour
                 brickCount_.SetChildeHitCount(idx_, 0, false);
                 label_.enabled = false;
                 break;
+            // 새롭게 추가한 type들
+            case BlockTypes.BombColor_Blue:
+            case BlockTypes.BombColor_Green:
+            case BlockTypes.BombColor_Orange:
+            case BlockTypes.BombColor_Pink:
+            case BlockTypes.BombColor_Purple:
+            case BlockTypes.BombColor_Yellow:
+                sprites_[0].gameObject.SetActive(true);
+                sprites_[1].gameObject.SetActive(false);
+                sprites_[2].gameObject.SetActive(false);
+                break;
+            //
             case BlockTypes.blockS:
             case BlockTypes.BombAll:
                 SettingBigSizeBrick(2, 2);
