@@ -34,6 +34,9 @@ public class BrickCount : MonoBehaviour
     // 슈팅모드 코인을 위한 변수
     public int getCoin;
 
+    // 벽돌 라인 상승을 위한 변수
+    public float distanceLine;
+
     private void Start()
     {
         // 시작하면서 볼 스프라이트를 설정 - 체험해보기면 체험해보기로 변환
@@ -511,6 +514,19 @@ public class BrickCount : MonoBehaviour
                 bricks_[brickNum].OnLaser(damage);
             }
         }
+    }
+
+    public void LineUpBrickCount()
+    {
+
+        //this.transform.position = tPos.from;
+        distanceLine = tPos.from.y - tPos.to.y;
+        tPos.from.y += distanceLine;
+        tPos.to.y += distanceLine;
+        this.transform.position += new Vector3(0, distanceLine * 1.5f, 0);  //임시방편 혹시나 해서 74를 하드코딩으로도 넣어봤는데 똑같이 3분의 2값이 더해짐
+        countNum--;
+        //gameObject.transform.Translate(new Vector3(0, distanceLine, 0), Space.World);
+
     }
 
     public void UndoBrickCount()

@@ -91,12 +91,15 @@ public enum InstanceItem
 {
     DoubleBall,
     AllBlockDamage,
+    PowerUp,
+    LineUp,
     Undo,
     AdBall,
     PlusBall,
     AttackUp,
     FireUp,
-    ProjUp
+    ProjUp,
+    
 }
 
 public enum UIState

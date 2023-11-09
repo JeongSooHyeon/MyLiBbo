@@ -531,6 +531,18 @@ public class BrickManager : MonoBehaviour
         UpScore(true);
         UIManager.instance.SetMoney();
     }
+    public void BottomeLineUpBtn()
+    {
+        if (bundleList[0].countNum >= 1)
+        {
+            SoundManager.instance.ChangeEffects(6);
+            for (int i = 1; i < bundleList.Count; ++i)
+            {
+                bundleList[i].LineUpBrickCount();
+            }
+            bundleList[0].LineUpBrickCount();
+        }
+    }
 
     public void deleteBrickToContinue()
     {

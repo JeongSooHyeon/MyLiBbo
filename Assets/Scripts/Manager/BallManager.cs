@@ -680,6 +680,12 @@ public class BallManager : MonoBehaviour
         ballHit = attack;
     }
 
+    public void UsePowerUp(int att)
+    {
+        attack += att;
+        ballHit = attack;
+    }
+
     public void UseFireUp()
     {
         fireTime += 0.5f;

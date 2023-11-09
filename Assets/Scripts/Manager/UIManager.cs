@@ -385,14 +385,14 @@ public class UIManager : MonoBehaviour
         {
             showPlayObj[0].SetActive(isTrue);
             showPlayObj[1].SetActive(!isTrue);
-            showPlayObj[5].SetActive(false); // 슈팅모드 전용 bottom UI
+            showPlayObj[7].SetActive(false); // 슈팅모드 전용 bottom UI
             setStartShow();
         }
         else
         {
             showPlayObj[0].SetActive(false);
             showPlayObj[1].SetActive(false);
-            showPlayObj[5].SetActive(true); // 슈팅모드 전용 bottom UI
+            showPlayObj[7].SetActive(true); // 슈팅모드 전용 bottom UI
         }
     }
 
@@ -417,12 +417,17 @@ public class UIManager : MonoBehaviour
             showPlayObj[2].SetActive(false);
             showPlayObj[3].SetActive(false);
             showPlayObj[4].SetActive(false);
+            showPlayObj[5].SetActive(false);
+            showPlayObj[6].SetActive(false);
         }
 
         if (DataManager.instance.curMapDataList.MyGM == GameMode.STAGEBOSS)
         {
             showPlayObj[2].SetActive(false);
             showPlayObj[3].SetActive(false);
+            showPlayObj[4].SetActive(false);
+            showPlayObj[5].SetActive(false);
+            showPlayObj[6].SetActive(false);
         }
         startPlayObj[0].SetActive(false);
     }

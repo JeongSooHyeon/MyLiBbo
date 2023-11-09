@@ -250,13 +250,15 @@ public class DataManager : MonoBehaviour
             charBallPreViewList = initUserLocalData("charBallPreViewList", maxShopNum, 1, 0, 0);
         }
 
-        instanceItemList = initUserLocalData("InstanceItemList", 3, 0, 0, 0);
+        instanceItemList = initUserLocalData("InstanceItemList", 5, 0, 0, 0);
         if (!PlayerPrefsElite.GetBoolean("firstLogin"))
         {
             PlayerPrefsElite.SetBoolean("firstLogin", true);
             SetInstanceItemList(InstanceItem.AllBlockDamage, 3);
             SetInstanceItemList(InstanceItem.DoubleBall, 3);
             SetInstanceItemList(InstanceItem.Undo, 3);
+            SetInstanceItemList(InstanceItem.PowerUp, 3);
+            SetInstanceItemList(InstanceItem.LineUp, 1);
         }
 
         HousingStateList = initUserLocalData("HousingStateList", 5, 0, -1, 0);
