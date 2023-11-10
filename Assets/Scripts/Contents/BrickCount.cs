@@ -519,13 +519,7 @@ public class BrickCount : MonoBehaviour
     public void LineUpBrickCount()
     {
 
-        //this.transform.position = tPos.from;
-        distanceLine = tPos.from.y - tPos.to.y;
-        tPos.from.y += distanceLine;
-        tPos.to.y += distanceLine;
-        this.transform.position += new Vector3(0, distanceLine * 1.5f, 0);  //임시방편 혹시나 해서 74를 하드코딩으로도 넣어봤는데 똑같이 3분의 2값이 더해짐
-        countNum--;
-        //gameObject.transform.Translate(new Vector3(0, distanceLine, 0), Space.World);
+        tPos.PlayReverse();
 
     }
 
