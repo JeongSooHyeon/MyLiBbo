@@ -169,9 +169,7 @@ public class Brick : MonoBehaviour
             case BlockTypes.BombColor_Pink:
             case BlockTypes.BombColor_Purple:
             case BlockTypes.BombColor_Yellow:
-                sprites_[0].gameObject.SetActive(true);
-                sprites_[1].gameObject.SetActive(false);
-                sprites_[2].gameObject.SetActive(false);
+                SettingColorBrick();
                 break;
             //
             case BlockTypes.blockS:
@@ -208,6 +206,15 @@ public class Brick : MonoBehaviour
 
         LabelSetting();
         ps_ = ps;
+    }
+
+    // 컬러 bomb 브릭 세팅, size 는 1, 1짜리 로만  
+    void SettingColorBrick()
+    {
+        sprites_[0].gameObject.SetActive(true);
+        sprites_[1].gameObject.SetActive(false);
+        sprites_[2].gameObject.SetActive(false);
+        label_.transform.localPosition = Vector2.zero;
     }
 
     // 큰 브릭 세팅
@@ -739,6 +746,26 @@ public class Brick : MonoBehaviour
                 case BlockTypes.BombNormal_Box:
                     c = "Sprite_Bomb_3x3";
                     break;
+                //BlockTypes.BombColor들의 임시 스프라이트 장착
+                case BlockTypes.BombColor_Blue:
+                    c = "Sprite_Bomb_Hor"; ;
+                    break;
+                case BlockTypes.BombColor_Green:
+                    c = "Sprite_Bomb_Hor"; ;
+                    break;
+                case BlockTypes.BombColor_Orange:
+                    c = "Sprite_Bomb_Hor"; ;
+                    break;
+                case BlockTypes.BombColor_Pink:
+                    c = "Sprite_Bomb_Hor";
+                    break;
+                case BlockTypes.BombColor_Purple:
+                    c = "Sprite_Bomb_Hor";
+                    break;
+                case BlockTypes.BombColor_Yellow:
+                    c = "Sprite_Bomb_Hor";
+                    break;
+                //
                 case BlockTypes.BombAll:
                     c = "Sprite_Dynamite";
                     break;
