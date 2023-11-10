@@ -126,7 +126,7 @@ public class BrickCount : MonoBehaviour
             blockShow = DataManager.instance.GetBlockShowData(brick_idx_, i);
 
             // 블록 세팅
-            if ((blockShow.type_ < BlockTypes.Laser_Ver || (blockShow.type_ > BlockTypes.Hole_Out && blockShow.type_ < BlockTypes.bluemon)) && blockShow.health > 0 || blockShow.type_ == BlockTypes.TriBounce || blockShow.type_ == BlockTypes.BombAll)
+            if ((blockShow.type_ < BlockTypes.Laser_Ver || (blockShow.type_ > BlockTypes.Hole_Out && blockShow.type_ < BlockTypes.bluemon)) && blockShow.health > 0 || blockShow.type_ == BlockTypes.TriBounce || blockShow.type_ == BlockTypes.BombAll || blockShow.type_ == BlockTypes.BombMini)
             {
                 bricks_[i].gameObject.SetActive(true);
                 bricks_[i].StageSetting(blockShow.health, blockShow.type_, blockShow.colorType, this, brick_idx_, ps_[ballSpriteCount]);

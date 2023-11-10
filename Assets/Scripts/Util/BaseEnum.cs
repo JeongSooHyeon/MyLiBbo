@@ -3,7 +3,7 @@
     Blank, Normal, Triangle1, Triangle2, Triangle3, Triangle4, Speaker, Laser_Ver, Laser_Hor, Laser_XCro, Laser_Cro, Bounce, AddBall,
     Coin, Hole_In, Hole_Out, BombNormal_Hor, BombNormal_Ver, BombNormal_XCro, BombNormal_Cro, BombNormal_Box, Fixed, TriBounce,
     blockS,blockM,blockL,blockRetangle1, blockRetangle2,slideBlock_1,slideBlock_2,slideBlock_3,slideBlock_4,bluemon,pinkmon,chocomon,
-    lemon,orangemon,chocoballmon,eggmon,popmon_P, popmon_W, popmon_Y, cakemon, cookiemon, BombAll
+    lemon,orangemon,chocoballmon,eggmon,popmon_P, popmon_W, popmon_Y, cakemon, cookiemon, BombAll, BombMini
 }
 public enum GameMode
 {

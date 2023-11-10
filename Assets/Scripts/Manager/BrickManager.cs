@@ -679,6 +679,31 @@ public class BrickManager : MonoBehaviour
                     }
                 }
                 break;
+            case BlockTypes.BombMini:  // 소형 폭탄
+                GameContents.instance.gameitem(pos.position, 9); // 이펙트 재생 33이 마지막임, 이펙트 추가해줘야 함
+                SoundManager.instance.ChangeEffects(20, 1f);    // 효과음
+
+                for (int i = BrickCountNum - 1; i < BrickCountNum + 2; ++i) // 내 윗줄, 아랫줄
+                {
+                    int a;  // 번들 idx
+
+                    if (i <= -1) a = bundleList.Count - 1;  // 내가 0번째 번들이면, 맨 밑 번들
+                    else if (i >= bundleList.Count) a = 0;  // 내가 맨 밑 번들이면, 맨 위 번들
+                    else a = i;
+
+                    // j:brick idx
+                    for (int j = BrickNum - 1; j < BrickNum + 2; ++j)   // 내 왼쪽 Brick부터 오른쪽 Brick까지
+                    {
+                        if (j >= 0 && j < bCount)   // 0부터 번들갯수 범위
+                        {
+                            if (a != BrickCountNum || j != BrickNum)    // 내 번들이 아니거나, 내 Brick 번호가 아니면
+                            {
+                                bundleList[a].OnBombLineBrick(j);
+                            }
+                        }
+                    }
+                }
+                break;
             case BlockTypes.BombAll:
                 StartCoroutine(DelayBomb(1f, pos));
                 break;

@@ -26,7 +26,7 @@ public class MapEditor : EditorWindow
     float stageBossTime;
     bool isStageMode = true;
     bool isBossStage;
-    Texture blankTx, normalTx, TriTx_1, TriTx_2, TriTx_3, TriTx_4,SpeTx,HorTx,VerTx,XCrossTx,CrossTx,BounceTx,AddBallTx,CoinTx,HoleInTx,HoleOutTx,BombTx_1,BombTx_2, BombTx_3, BombTx_4, BombTx_5, FixTx,TBounce;
+    Texture blankTx, normalTx, TriTx_1, TriTx_2, TriTx_3, TriTx_4,SpeTx,HorTx,VerTx,XCrossTx,CrossTx,BounceTx,AddBallTx,CoinTx,HoleInTx,HoleOutTx,BombTx_1,BombTx_2, BombTx_3, BombTx_4, BombTx_5, FixTx,TBounce, BombMini;
     Vector2 scrollViewVector;
     TextureCover cover_;
 
@@ -141,6 +141,7 @@ public class MapEditor : EditorWindow
 
             FixTx = arrayTex[21];
             TBounce = arrayTex[22];
+            BombMini = arrayTex[23];    // 소형 폭탄
         }
         else Debug.LogError("PLZ MapEditor Scene ");
     }
@@ -515,6 +516,7 @@ public class MapEditor : EditorWindow
         SetBrickButton(FixTx, " - FixedBlock", BlockTypes.Fixed);
         SetBrickButton(TBounce, " - TriBounce", BlockTypes.TriBounce);
 
+        SetBrickButton(BombMini, " - BombMini", BlockTypes.BombMini); // 소형 폭탄
         GUILayout.EndHorizontal();
         GUILayout.Space(30);
         GUILayout.BeginHorizontal();
