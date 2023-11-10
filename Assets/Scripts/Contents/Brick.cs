@@ -147,6 +147,7 @@ public class Brick : MonoBehaviour
                 label_.transform.localPosition = Vector2.zero;
                 break;
             case BlockTypes.Speaker:
+            case BlockTypes.BombMini:   // 소형 폭탄
                 sprites_[0].gameObject.SetActive(true);
                 sprites_[1].gameObject.SetActive(false);
                 sprites_[2].gameObject.SetActive(false);
@@ -556,7 +557,7 @@ public class Brick : MonoBehaviour
         else brickCount_.SetChildeHitCount(idx_, 0);
         brickCount_.brickSpecial[idx_] = 0;
         // 큰 크기 블럭의 서브 블럭들이 다중 처리 되는 것 방지
-        if (types_ >= BlockTypes.blockS && myOriginBrick != this)
+        if (types_ != BlockTypes.BombMini && types_ >= BlockTypes.blockS && myOriginBrick != this)
         {
             types_ = BlockTypes.Blank;
             myOriginBrick = null;
@@ -689,6 +690,11 @@ public class Brick : MonoBehaviour
             case BlockTypes.Speaker:
                 s = "Sprite_Speaker";
                 speaker_Sprite.width = 66;
+                speaker_Sprite.height = 66;
+                break;
+            case BlockTypes.BombMini:
+                s = "Sprite_Dynamite";
+                speaker_Sprite.width = 66;  // 크기 설정
                 speaker_Sprite.height = 66;
                 break;
             case BlockTypes.Fixed:

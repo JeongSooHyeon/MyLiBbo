@@ -1211,7 +1211,8 @@ public class NewMapEditor : EditorWindow
             return true;
         if (type == BlockTypes.cookiemon)
             return true;
-
+        if (type == BlockTypes.BombMini)
+            return true;
         return false;
     }
 

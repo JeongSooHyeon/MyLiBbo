@@ -21,7 +21,7 @@ public class BallManager : MonoBehaviour
     BoxCollider2D box_;
     [SerializeField] int fireCnt = 0;
     List<BallMove> delBall;
-    [SerializeField] UISlider sd;
+    //[SerializeField] UISlider sd;
     public int ballSpriteCnt;
     public int monsterSpriteCnt;
     bool onPause = false;
@@ -207,7 +207,7 @@ public class BallManager : MonoBehaviour
         UIManager.instance.ArrowSpriteSetting(false, forceX);
         UIManager.instance.BottomWallTrue(true);
         UIManager.instance.ShowDownBtn(true);
-        sd.value = 0.5f;
+        //sd.value = 0.5f;
     }
 
     public void ResetBall(bool undo = false)
@@ -374,7 +374,7 @@ public class BallManager : MonoBehaviour
         {
             isSliderFire = false;
             isSliderSet = false;
-            sd.value = 0.5f;
+            //sd.value = 0.5f;
             return;
         }
         else if (!isTrue)
@@ -382,7 +382,7 @@ public class BallManager : MonoBehaviour
             noneFire = false;
             isSliderFire = false;
             isSliderSet = false;
-            sd.value = 0.5f;
+            //sd.value = 0.5f;
         }
 
         sliderFloat = sliderF;
