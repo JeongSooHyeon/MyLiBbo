@@ -520,6 +520,11 @@ public class BrickCount : MonoBehaviour
     {
 
         tPos.PlayReverse();
+        countNum--;
+        if (countNum == -1)
+        {
+            countNum = 10;
+        }
 
     }
 

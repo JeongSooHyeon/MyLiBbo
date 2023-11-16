@@ -533,14 +533,12 @@ public class BrickManager : MonoBehaviour
     }
     public void BottomeLineUpBtn()
     {
-        if (bundleList[0].countNum >= 1)
+        warningSprite.SetActive(false);
+        counts_--;
+        SoundManager.instance.ChangeEffects(6);
+        for (int i = 0; i < bundleList.Count; ++i)
         {
-            SoundManager.instance.ChangeEffects(6);
-            for (int i = 1; i < bundleList.Count; ++i)
-            {
-                bundleList[i].LineUpBrickCount();
-            }
-            bundleList[0].LineUpBrickCount();
+            bundleList[i].LineUpBrickCount();
         }
     }
 
